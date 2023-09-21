@@ -1,0 +1,40 @@
+#nav-menu{
+    width: 1500px;
+    height: 100px;
+    background-color:orangered;
+    margin: 0 auto;
+  }
+  #nav-menu ul li{
+     list-style-type:none;
+     margin: 10px;
+     float: left;
+  }
+  #nav-menu ul li a{
+   text-decoration: none;
+   font-size: 25px;
+   color: white;
+   cursor:pointer;
+  }
+  #nav-menu ul li a:hover{
+   background-color: orange;
+  }
+  p{
+   width: 1500px;
+   height: 100px;
+   background-color: rgb(216, 220, 9);
+   margin: 0 auto;
+   font-size:200%;
+ }
+  <!-- Responsive-->
+  @media screen and (max-width:992px) 
+  {
+   #nav-menu{
+       float: left;
+       width: 50%;
+   }
+}
+ @media screen and (max-width:600px) {
+   #nav-menu{
+       width: 100%;
+   }
+ }
